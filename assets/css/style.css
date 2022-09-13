@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    color: #fff;
+    background: linear-gradient(145deg , rgb(37, 119, 159), rgb(105, 130, 149));
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.search-bar{
+    position: relative;
+    width: 50%;
+    padding-top: 20px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+.search-icon{
+    position: absolute;
+    left: 0;
+    margin-right: 20px;
+}
+#search-input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 3px 3px 3px 20px;
+    color: #fff;
+}
+#search-input::placeholder{
+    color: rgb(206, 206, 206);
+}
+
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding: 80px 30px;
+}
+.city-name{
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+.wearch-state{
+    font-size: 14px;
+}
+.wearch-icon{
+    height: 70px;
+    width: 70px;
+}
+.temperature{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+}
+.temperature::after{
+    content: "o";
+    position: absolute;
+    font-size: 24px;
+}
+
+.additional-section{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.additional-section .row{
+    display: flex;
+    margin-top: 5px;
+}
+.additional-section .item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.additional-section .item .label{
+    font-weight: bold;
+}
